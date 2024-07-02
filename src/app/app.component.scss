@@ -1,0 +1,22 @@
+.dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+}
+
+.dot {
+  width: 50px; /* Adjust dot size as needed */
+  height: 50px; /* Adjust dot size as needed */
+  background-color: #6666;
+  border-radius: 50%;
+}
+
+.dotWrapper {
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
